@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class CountryPickerWithSectionViewController: CountryPickerController {
+@objcMembers open class CountryPickerWithSectionViewController: CountryPickerController {
 
     // MARK: - Variables
     var sections: [Character] = []

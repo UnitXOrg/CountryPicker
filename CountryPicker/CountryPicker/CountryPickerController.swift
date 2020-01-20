@@ -23,7 +23,7 @@ public enum CountryFlagStyle {
 }
 
 
-open class CountryPickerController: UIViewController {
+@objcMembers open class CountryPickerController: UIViewController {
     
     // MARK: - Variables
     var countries = [Country]() {
