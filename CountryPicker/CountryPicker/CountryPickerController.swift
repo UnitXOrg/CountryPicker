@@ -10,7 +10,7 @@ import UIKit
 
 
 /// Country flag styles
-public enum CountryFlagStyle {
+@objcMembers public enum CountryFlagStyle {
     
     // Corner style will be applied
     case corner
