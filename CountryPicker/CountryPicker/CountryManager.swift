@@ -23,7 +23,7 @@ public enum CountryFilterOption {
 }
 
 
-open class CountryManager {
+@objcMembers open class CountryManager: NSObject {
     
     // MARK: - variable
     private(set) var countries = [Country]()
@@ -63,7 +63,7 @@ open class CountryManager {
     internal var filters: Set<CountryFilterOption> = [.countryName]
     
     
-    private init() {}
+    @objc private override init() {}
     
     func loadCountries() throws {
         

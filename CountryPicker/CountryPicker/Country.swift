@@ -8,8 +8,8 @@
 
 import Foundation
 import UIKit
-
-open class Country {
+ 
+@objcMembers open class Country: NSObject {
 
     // MARK:- Variable
     open var countryCode: String
